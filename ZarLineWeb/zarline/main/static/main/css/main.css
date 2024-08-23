@@ -1,0 +1,91 @@
+body {
+  background: #62a6fe;
+}
+
+aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #006eff;
+  width: 20%;
+  padding: 2.5%;
+  height: 100vh;
+  text-decoration: none;
+  color: #ffffff;
+  border-right: 1.5px solid #020202;
+}
+
+aside img {
+  width: 155px;
+  float: left;
+}
+
+aside .logo {
+  font-size: 40px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+aside h3 {
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+aside ul {
+  list-style: none;
+}
+
+aside ul li {
+  color: #ffffff;
+  display: block;
+  margin-top: 20px;
+  transition: transform .6s ease;
+}
+
+aside ul li:hover,
+aside ul a:hover {
+  text-decoration: none;
+  color: #62a6fe;
+  transform: scale(1.15);
+  filter: none;
+}
+
+main {
+  margin-left: 30%; /* Отступ для основного контента, чтобы не накладывался на aside */
+}
+
+main .features {
+  float: left;
+  color: #ffffff;
+  margin-top: 100px;
+  text-align: center;
+  width: 75%;
+}
+
+main .features h1 {
+  font-size: 30px;
+}
+
+main .features h6 {
+  font-size: 50px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .features p {
+  max-width: 1200px;
+  margin: 20px auto 30px;
+}
+
+.image-container {
+  float: right;
+  margin-left: 20px; /* Расстояние между текстом и картинкой */
+}
+h2 {
+     font-size: 35px;
+      text-align: center;
+}

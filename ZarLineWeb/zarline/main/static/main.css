@@ -1,0 +1,66 @@
+body {
+    background: #103;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+aside {
+    float: left;
+    background: #1E90FF;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 1.5px solid #4d4d4d;
+}
+
+aside img {
+    width: 120px;
+    float: left;
+}
+
+aside .logo {
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    text-decoration: none;
+    color: #ffa500;
+    transform: scale(1.05);
+}
+
+h1 {
+    font-size: 25px; /* задаем размер шрифта для заголовков */
+    text-align: center; /* выравниваем текст по центру */
+  }
+
+
+.features {
+    flex: 1; /* Позволяет блоку занимать оставшееся пространство */
+    color: #fff;
+    text-align: justify; /* Распределение текста по ширине контейнера */
+    max-width: 800px; /* Максимальная ширина текста */
+    margin: 50px auto 1px; /* Центрирование блока текста и отступ сверху на 50px */
+    padding: 0 20px; /* Отступы по бокам для лучшего визуального распределения текста */
+}
